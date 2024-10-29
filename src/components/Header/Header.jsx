@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <h2>Navbar</h2>
-      <nav className="flex gap-5">
+      <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/users">Users</Link>
